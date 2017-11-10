@@ -12,35 +12,25 @@ I do not have any direct knowledge or experience with income and social factors,
 
 The data was obtained via Kaggle.com. It originated from the 1994 US Adult Census and was archived in the UCI repository. It was released under CC0 1.0 Universal. It has been split into two comma-separated variable (csv) files labeled “adult-test.csv” and “adult-training.csv.” Each file contains 15 columns:
 
-Column | Type
---- | ---
-age | int
-type_employer | str
-fnlwgt | int
-education | str
-education_num | int
-marital | str
-occupation | str
-relationship | str
-race | str
-sex | str
-capital_gain | int
-capital_loss | int
-hr_per_week | int
-country | str
-income | boolean
+Column | Type | Description/Categories
+--- | --- | ---
+age | int | self-describing
+type_employer | str | the type of the employer the individual has (i.e. government, military, private, etc.).
+fnlwgt | int | the final sampling weight (i.e. the number of people the census believes that observation represents)
+education | str | the highest education attained
+education_num | int | a numerical representation of the highest education attained
+marital | str | marital status (i.e. married, single, divorced, etc.)
+occupation | str | generic field of work
+relationship | str | contains family relationship values like husband and father
+race | str | self-describing
+sex | boolean | sex at birth
+capital_gain | int | income received other than salary
+capital_loss | int | income lost other than salary
+hr_per_week | int | number of hours worked per week
+country | str | country of origin of the individual
+income | boolean | less than $50K, or greater than or equal to $50K
 
-"type_employer" - the type of the employer the individual has (i.e. government, military, private, etc.).
-
-"fnlwgt" - the final sampling weight (i.e. the number of people the census believe that observation represents).
-
-"education_num" - a numerical representation of education.
-
-"relationship" - contains family relationship values like husband and father, however, there is only one per record. I will need to investigate the relevance of this variable more.
-
-"country" - the native country of the individual
-
-"income" - this is a boolean variable classifying individuals as greater than $50K, or less than or equal to $50K.
+The "relationship" attribute contains family relationship values like husband and father, however, there is only one per record. I will need to investigate the relevance of this attribute more.
 
 The “adult-training.csv” file contains 32,561 rows and the “adult-test.csv” file contains 16,281 rows. For the purposes of this analysis, the two files will be joined together and split randomly later during the process.
 

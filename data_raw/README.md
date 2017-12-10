@@ -4,7 +4,7 @@ Data is provided by the US Census Bureau and has been archived in the University
 
 The data is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0).
 
-The raw data file is in a `.csv` format and contains 15 columns in the following format:
+For both files, "adult-test.csv" and "adult-training.csv," the raw data files are in a `.csv` format and contain 15 columns in the following format:
 
 Column | Type | Description/Categories
 --- | --- | ---

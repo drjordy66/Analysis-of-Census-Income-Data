@@ -1,12 +1,12 @@
 # Cleaned Data
 
-The cleaned data was created using the [raw data](../data_raw) on 12/9/2017.
+The cleaned data was created using the [raw data](../data_raw) on 12/10/2017.
 
 As there were four varying methods for cleaning the data, there are four cleaned `.csv` files in the following formats:
 
 ## Method 1
 
-Delete all rows associated with missing values reducing the total number of rows from 48,842 to 45,222.
+Delete all rows associated with missing values reducing the total number of rows from 48,842 to 45,222 and naively encode the categorical features.
 
 Column | Type
 --- | ---
@@ -26,7 +26,7 @@ income | boolean
 
 ## Method 2
 
-Delete the features associated with missing values reducing the feature space from 14 to 11.
+Delete the features associated with missing values reducing the feature space from 14 to 11 and naively encode the categorial features.
 
 Column | Type
 --- | ---

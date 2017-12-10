@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Exploratory Data Analysis - EDA](#xxploratory-data-analysis---eda)
+- [Exploratory Data Analysis - EDA](#exploratory-data-analysis---eda)
   - [High-Level](#high-level)
   - [Summary Statistics of Numerical Features](#summary-statistics-of-numerical-features)
   - [Summary of Categorical Features - Tables and Graphs](#summary-of-categorical-features---tables-and-graphs)
@@ -17,8 +17,8 @@
     - [income](#income)
 - [Research Questions](#research-questions)
   - [RQ1](#1-given-a-set-of-features-can-we-predict-whether-the-income-of-a-person-will-be-greater-than-or-less-than-50000)
-  - [RQ2]()
-  - [RQ3]()
+  - [RQ2](#2-which-feature-is-the-most-important-in-determining-income-classification)
+  - [RQ3](#3-ignoring-income-what-factors-appear-to-be-highly-correlated-with-each-other)
 
 ## Exploratory Data Analysis - EDA
 

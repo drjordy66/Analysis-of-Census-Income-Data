@@ -74,7 +74,7 @@ Without-pay | 21
 
 Bar Graph:
 
-![Alt text](/analysis/eda_type_employer.png?raw=true "type_employer")
+![Alt text](/images/eda_type_employer.png?raw=true "type_employer")
 
 #### education
 
@@ -101,7 +101,7 @@ Doctorate | 594
 
 Bar Graph:
 
-![Alt text](/analysis/eda_education.png?raw=true "education")
+![Alt text](/images/eda_education.png?raw=true "education")
 
 #### marital
 
@@ -119,7 +119,7 @@ Widowed | 1518
 
 Bar Graph:
 
-![Alt text](/analysis/eda_marital.png?raw=true "marital")
+![Alt text](/images/eda_marital.png?raw=true "marital")
 
 #### occupation
 
@@ -144,7 +144,7 @@ Transport-moving | 2355
 
 Bar Graph:
 
-![Alt text](/analysis/eda_occupation.png?raw=true "occupation")
+![Alt text](/images/eda_occupation.png?raw=true "occupation")
 
 #### relationship
 
@@ -161,7 +161,7 @@ Wife | 2331
 
 Bar Graph:
 
-![Alt text](/analysis/eda_relationship.png?raw=true "relationship")
+![Alt text](/images/eda_relationship.png?raw=true "relationship")
 
 #### race
 
@@ -177,7 +177,7 @@ White | 41762
 
 Bar Graph:
 
-![Alt text](/analysis/eda_race.png?raw=true "race")
+![Alt text](/images/eda_race.png?raw=true "race")
 
 #### sex
 
@@ -190,7 +190,7 @@ Male | 32650
 
 Bar Graph:
 
-![Alt text](/analysis/eda_sex.png?raw=true "sex")
+![Alt text](/images/eda_sex.png?raw=true "sex")
 
 #### country
 
@@ -242,7 +242,7 @@ Yugoslavia | 23
 
 Bar Graph:
 
-![Alt text](/analysis/eda_country.png?raw=true "country")
+![Alt text](/images/eda_country.png?raw=true "country")
 
 #### income
 
@@ -257,7 +257,7 @@ income | count
 
 Bar Graph:
 
-![Alt text](/analysis/eda_income.png?raw=true "income")
+![Alt text](/images/eda_income.png?raw=true "income")
 
 ## Research Questions
 
@@ -265,44 +265,56 @@ Bar Graph:
 
 #### Method 1 Confusion Matrix
 
-![Alt text](/analysis/m1_conf_mat.png?raw=true "m1_conf_mat")
+![Alt text](/images/m1_conf_mat.png?raw=true "m1_conf_mat")
 
 #### Method 2 Confusion Matrix
 
-![Alt text](/analysis/m2_conf_mat.png?raw=true "m2_conf_mat")
+![Alt text](/images/m2_conf_mat.png?raw=true "m2_conf_mat")
 
 #### Method 3 Confusion Matrix
 
-![Alt text](/analysis/m3_conf_mat.png?raw=true "m3_conf_mat")
+![Alt text](/images/m3_conf_mat.png?raw=true "m3_conf_mat")
 
 #### Method 4 Confusion Matrix
 
-![Alt text](/analysis/m4_conf_mat.png?raw=true "m4_conf_mat")
+![Alt text](/images/m4_conf_mat.png?raw=true "m4_conf_mat")
 
 ### 2. Which feature is the most important in determining income classification?
 
-#### Method 1
+#### Method 1 Coefficient Values
 
-Coefficient Values:
+![Alt text](/images/m1_coefficient_values_bargraph.png?raw=true "m1_coefficient_values_bargraph")
 
-![Alt text](/analysis/m1_coefficient_values_bargraph.png?raw=true "m1_coefficient_values_bargraph")
+#### Method 2 Coefficient Values
 
-#### Method 4
+![Alt text](/images/m2_coefficient_values_bargraph.png?raw=true "m2_coefficient_values_bargraph")
 
-Coefficient Values:
+#### Method 3 Coefficient Values
 
-![Alt text](/analysis/m4_coefficient_values_bargraph.png?raw=true "m4_coefficient_values_bargraph")
+![Alt text](/images/m3_coefficient_values_bargraph.png?raw=true "m3_coefficient_values_bargraph")
+
+#### Method 4 Coefficient Values
+
+![Alt text](/images/m4_coefficient_values_bargraph.png?raw=true "m4_coefficient_values_bargraph")
 
 ### 3. Ignoring income, what factors appear to be highly correlated with each other?
 
-#### Method 1
+#### Method 1 Pearson Correlations
 
-![Alt text](/analysis/m1_pearson_corr_heatmap.png?raw=true "m1_pearson_corr_heatmap")
+![Alt text](/images/m1_pearson_corr_heatmap.png?raw=true "m1_pearson_corr_heatmap")
 
-Filtered with a 0.2 threshold:
+Filtered with a (-0.2, 0.2) threshold:
 
-![Alt text](/analysis/m1_pearson_corr_heatmap_filtered.png?raw=true "m1_pearson_corr_heatmap_filtered")
+![Alt text](/images/m1_pearson_corr_heatmap_filtered.png?raw=true "m1_pearson_corr_heatmap_filtered")
 
-#### Method 4
+#### Method 2 Pearson Correlations
 
-![Alt text](/analysis/m4_pearson_corr_heatmap.png?raw=true "m4_pearson_corr_heatmap")
+![Alt text](/images/m2_pearson_corr_heatmap.png?raw=true "m2_pearson_corr_heatmap")
+
+#### Method 3 Pearson Correlations
+
+![Alt text](/images/m3_pearson_corr_heatmap.png?raw=true "m3_pearson_corr_heatmap")
+
+#### Method 4 Pearson Correlations
+
+![Alt text](/images/m4_pearson_corr_heatmap.png?raw=true "m4_pearson_corr_heatmap")

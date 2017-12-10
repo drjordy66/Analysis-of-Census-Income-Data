@@ -1,3 +1,5 @@
+__NOTE: The project plan presented below is outdated and does not accurately represent the entirety of this analysis.__
+
 # Final Project Plan
 
 ## Introduction

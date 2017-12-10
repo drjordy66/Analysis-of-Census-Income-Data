@@ -1,8 +1,24 @@
 # Analysis/Visualizations
 
-[Test](#sex)
+## Contents
 
-## Exploratory Data Analysis (EDA)
+- [Exploratory Data Analysis - EDA](#Exploratory Data Analysis---EDA)
+  - [High-Level](#High-Level)
+  - [Summary Statistics of Numerical Features](Summary-Statistics-of-Numerical-Features)
+  - [Summary of Categorical Features - Tables and Graphs](Summary-of-Categorical-Features---Tables-and-Graphs)
+    - [type_employer](#type_employer)
+    - [education](#education)
+    - [marital](#marital)
+    - [occupation](#occupation)
+    - [relationship](#relationship)
+    - [race](#race)
+    - [sex](#sex)
+    - [country](#country)
+    - [income](#income)
+- [Research Questions](#Research-Questions)
+  - [RQ1](#1.-Given-a-set-of-features,-can-we-predict-whether-the-income-of-a-person-will-be-greater-than-or-less-than-$50,000?)
+
+## Exploratory Data Analysis - EDA
 
 ### High-Level
 
@@ -37,7 +53,7 @@ min | 17 | 12285 | 1 | 114 | 155 | 1
 75% | 48 | 237642 | 12 | 13550 | 1977 | 45
 max | 90 | 1490400 | 16 | 99999 | 4356 | 99
 
-### Summary of Categorical Features (Tables and Graphs)
+### Summary of Categorical Features - Tables and Graphs
 
 #### type_employer
 

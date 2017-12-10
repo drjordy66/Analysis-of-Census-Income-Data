@@ -24,7 +24,7 @@ income | object | 4
 
 ### Summary Statistics of Numerical Features
 
-age | fnlwgt | education_num | capital_gain | capital_loss | hr_per_week
+| age | fnlwgt | education_num | capital_gain | capital_loss | hr_per_week
 --- | --- | --- | --- | --- | --- | ---
 count | 48842 | 48842 | 48842 | 4035 | 2282 | 48842
 mean | 38.643585 | 189664.1 | 10.078089 | 13061.665675 | 1872.825592 | 40.422382

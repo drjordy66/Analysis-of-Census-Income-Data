@@ -12,9 +12,24 @@ The project has the following structure:
 data-512-final-project/
   |- analysis/
      |- README.md
-     |- viz1.png
-     |- viz2.png
-     |- viz3.png
+     |- eda_country.png
+     |- eda_education.png
+     |- eda_income.png
+     |- eda_marital.png
+     |- eda_occupation.png
+     |- eda_race.png
+     |- eda_relationship.png
+     |- eda_sex.png
+     |- eda_type_employer.png
+     |- m1_coefficient_values_bargraph.png
+     |- m1_conf_mat.png
+     |- m1_pearson_corr_heatmap.png
+     |- m1_pearson_corr_heatmap_filtered.png
+     |- m2_conf_mat.png
+     |- m3_conf_mat.png
+     |- m4_coefficient_values_bargraph.png
+     |- m4_conf_mat.png
+     |- m4_pearson_corr_heatmap.png
   |- data_clean/
      |- README.md
      |- method1.csv

@@ -2,10 +2,10 @@
 
 ## Contents
 
-- [Exploratory Data Analysis - EDA](#Exploratory-Data-Analysis---EDA)
-  - [High-Level](#High-Level)
-  - [Summary Statistics of Numerical Features](#Summary-Statistics-of-Numerical-Features)
-  - [Summary of Categorical Features - Tables and Graphs](#Summary-of-Categorical-Features---Tables-and-Graphs)
+- [Exploratory Data Analysis - EDA](#xxploratory-data-analysis---eda)
+  - [High-Level](#high-level)
+  - [Summary Statistics of Numerical Features](#summary-statistics-of-numerical-features)
+  - [Summary of Categorical Features - Tables and Graphs](#summary-of-categorical-features---tables-and-graphs)
     - [type_employer](#type_employer)
     - [education](#education)
     - [marital](#marital)
@@ -15,8 +15,10 @@
     - [sex](#sex)
     - [country](#country)
     - [income](#income)
-- [Research Questions](#Research-Questions)
-  - [RQ1](#1.-Given-a-set-of-features,-can-we-predict-whether-the-income-of-a-person-will-be-greater-than-or-less-than-$50,000?)
+- [Research Questions](#research-questions)
+  - [RQ1](#1-given-a-set-of-features-can-we-predict-whether-the-income-of-a-person-will-be-greater-than-or-less-than-50000)
+  - [RQ2]()
+  - [RQ3]()
 
 ## Exploratory Data Analysis - EDA
 

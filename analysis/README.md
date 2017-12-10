@@ -2,10 +2,10 @@
 
 ## Contents
 
-- [Exploratory Data Analysis - EDA](#Exploratory Data Analysis---EDA)
+- [Exploratory Data Analysis - EDA](#Exploratory-Data-Analysis---EDA)
   - [High-Level](#High-Level)
-  - [Summary Statistics of Numerical Features](Summary-Statistics-of-Numerical-Features)
-  - [Summary of Categorical Features - Tables and Graphs](Summary-of-Categorical-Features---Tables-and-Graphs)
+  - [Summary Statistics of Numerical Features](#Summary-Statistics-of-Numerical-Features)
+  - [Summary of Categorical Features - Tables and Graphs](#Summary-of-Categorical-Features---Tables-and-Graphs)
     - [type_employer](#type_employer)
     - [education](#education)
     - [marital](#marital)

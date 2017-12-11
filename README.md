@@ -50,7 +50,7 @@ data-512-final-project/
      |- m4_conf_mat.png
      |- m4_pearson_corr_heatmap.png  
   |- project_plan/
-  	 |- README.md
+     |- README.md
   |- src/
      |- README.md
      |- hcds-final-project.ipynb

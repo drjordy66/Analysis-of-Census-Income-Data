@@ -2,7 +2,11 @@
 
 ## Abstract
 
-_words_
+Some sort of income is a necessity for people to survive in the US. This necessity should not be dictated by factors that are out of our control, yet income gaps continue to persist. The first step towards addressing income gaps is identifying the factors that are contributing to them. In doing so, we open up the opportunity for more research to hone in on the causes and what can be done to make changes.
+
+This analysis sets forth to identify whether income gaps exist and specifically what relationships and insights can be found with respect to income. It covers a variety of societal factors that the US census believes contribute toward an individual's income level. In doing so, we build a logistic regression prediction model to classify individuals into one of two income groups given a set of features.
+
+The findings are not all what we set out to investigate. During the analysis we discovered many limitations and data integrity issues that add a particular level of confounding to the results. We learned that part of the problem surrounding income gaps and using data science to identify the issues, is that the data available is not detailed enough to provide accurate insight or results.
 
 ## Organization of the project
 
@@ -48,6 +52,8 @@ data-512-final-project/
      |- hcds-final-project.ipynb
 ```
 
+__NOTE: The entire project flow can be found [here](/src/hcds-final-project.ipynb). An [analysis](/analysis) section has been included to summarize the exploratory data analysis (EDA) and findings with regard to the research questions.__
+
 ### Goal
 
 The goal of this project is to explore the "[US Adult Income](https://www.kaggle.com/johnolafenwa/us-census-data)" data and develop a model to predict whether an individual's income will be less than or equal to $50,000, or greater than $50,000. This prediction will be based on a number of features that describe the [data](/data_raw).
@@ -69,6 +75,8 @@ Data is provided by the US Census Bureau and has been archived in the University
 https://www.kaggle.com/johnolafenwa/us-census-data
 
 - [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)
+
+The [raw data](/data_raw) files are in `.csv` format.
 
 ### Cleaned data
 

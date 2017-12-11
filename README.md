@@ -12,6 +12,17 @@ The project has the following structure:
 data-512-final-project/
   |- analysis/
      |- README.md
+  |- data_clean/
+     |- README.md
+     |- method1.csv
+     |- method2.csv
+     |- method3.csv
+     |- method4.csv
+  |- data_raw/
+     |- README.md
+     |- adult-test.csv
+     |- adult-training.csv
+  |- images/
      |- eda_country.png
      |- eda_education.png
      |- eda_income.png
@@ -29,17 +40,7 @@ data-512-final-project/
      |- m3_conf_mat.png
      |- m4_coefficient_values_bargraph.png
      |- m4_conf_mat.png
-     |- m4_pearson_corr_heatmap.png
-  |- data_clean/
-     |- README.md
-     |- method1.csv
-     |- method2.csv
-     |- method3.csv
-     |- method4.csv
-  |- data_raw/
-     |- README.md
-     |- adult-test.csv
-     |- adult-training.csv
+     |- m4_pearson_corr_heatmap.png  
   |- project_plan/
   	 |- README.md
   |- src/
@@ -76,14 +77,6 @@ The [cleaned data](/data_clean) files are in a `.csv` format. Details regarding 
 ### Reproducibility
 
 The steps for reproducing this analysis can be found in the jupyter notebook [hcds-final-project.ipynb](/src/hcds-final-project.ipynb) under the [src](/src) directory.
-
-### Issues/special considerations
-
----------------
-- Combining the datasets removed rows where country names were not uniform. This is intentional and per the instructions of the analysis.
-
-- The [`page_data.csv`](/data_raw) contains revision ids that the ORES API may not find. These articles have most likely been deleted. The API call will list any relevant revision ids that were not found and a prediction value of 'NA' will be inserted into the article quality prediction.
----------------
 
 ### Additional attribution(s)
 

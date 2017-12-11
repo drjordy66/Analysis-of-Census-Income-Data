@@ -40,8 +40,12 @@ data-512-final-project/
      |- m1_conf_mat.png
      |- m1_pearson_corr_heatmap.png
      |- m1_pearson_corr_heatmap_filtered.png
+     |- m2_coefficient_values_bargraph.png
      |- m2_conf_mat.png
+     |- m2_pearson_corr_heatmap.png
+     |- m3_coefficient_values_bargraph.png
      |- m3_conf_mat.png
+     |- m3_pearson_corr_heatmap.png
      |- m4_coefficient_values_bargraph.png
      |- m4_conf_mat.png
      |- m4_pearson_corr_heatmap.png  

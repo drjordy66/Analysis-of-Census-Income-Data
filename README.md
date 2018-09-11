@@ -1,4 +1,4 @@
-# Final Project - Analysis of Census Income Data
+# Analysis of Census Income Data
 
 ## Abstract
 

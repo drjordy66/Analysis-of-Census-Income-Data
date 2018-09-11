@@ -89,9 +89,3 @@ The [cleaned data](/data_clean) files are in a `.csv` format. Details regarding 
 ### Reproducibility
 
 The steps for reproducing this analysis can be found in the jupyter notebook [hcds-final-project.ipynb](/src/hcds-final-project.ipynb) under the [src](/src) directory.
-
-### Additional attribution(s)
-
-Relevant information pertaining to this assignment was gathered from [HCDS (Fall 2017) Assignments](https://wiki.communitydata.cc/HCDS_(Fall_2017)/Assignments#A6:_Final_project_report).
-
-- CC-BY-SA 3.0
